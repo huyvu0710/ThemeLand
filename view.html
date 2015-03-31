@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hệ thống quản trị website</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+
+<header class="hhv-header"><p>Hệ thống quản trị website</p></header>
+
+<nav class="navigation">
+	<ul class="main">
+		<li class="main">
+			<a class="main" href="#">Hệ thống</a>
+			<ul class="item">
+				<li class="item">
+					<a href="#">Cấu hình</a>
+					<ul class="sub">
+						<li class="sub"><a href="#">Trang quản trị</a></li>
+						<li class="sub"><a href="#">Trang chủ</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li class="main">
+			<a class="main" href="#">Module</a>
+			<ul class="item">
+				<li class="item"><a href="#">Quảng cáo</a></li>
+				<li class="item"><a href="#">Hỗ trợ trực tuyến</a></li>
+				<li class="item"><a href="#">Từ khóa</a></li>
+				<li class="item"><a href="#">Phản hồi</a></li>
+			</ul>
+		</li>
+		<li class="main">
+			<a class="main" href="#">Bài viết</a>
+			<ul class="item">
+				<li class="item"><a href="#">Danh mục</a></li>
+				<li class="item"><a href="#">Bài viết</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="user-account">
+		<li>Chào <strong>Admin</strong></li>
+		<li><a href="#">Thông tin</a></li>
+		<li><a href="#">Đăng xuất</a></li>
+	</ul>
+</nav>
+
+<section class="hhv-tabs">
+	<h1>Danh sách bài viết</h1>
+	<ul>
+		<li class="active"><a href="#">Danh sách bài viết</a></li>
+		<li><a href="#">Danh sách bài viết</a></li>
+	</ul>
+</section>
+
+<section class="hhv-view">
+	<section class="advanced">
+		<section class="search">
+			<form method="get" action="">
+				<select name="category">
+					<option value=" ">- Danh mục sản phẩm -</option>
+				</select>
+				<input type="text" name="keyword" class="text" value="">
+				<input type="submit" class="submit" value="Tìm kiếm">
+			</form>
+		</section>
+		<section class="tool">
+			<form method="get" action="">
+				<input type="button" value="Thêm mới" />
+				<input type="button" value="Xóa nhiều" />
+				<input type="button" value="Hiển thị" />
+				<input type="button" value="Sắp xếp" />
+			</form>
+		</section>
+	</section>
+	<section class="table">
+		<table cellpadding="0" cellspacing="0" class="main">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th><input type="checkbox" id="view-checkall" /></th>
+					<th><a href="#">Tên bài viết</a><img src="images/desc.png" /></th>
+					<th><a href="#">Ngày tạo</a></th>
+					<th><a href="#">Ngày sửa</a></th>
+					<th><a href="#">Người tạo</a></th>
+					<th><a href="#">Người sửa</a></th>
+					<th><a href="#">Lượt xem</a></th>
+					<th><a href="#">Vị trí</a></th>
+					<th><a href="#">Hiển thị</a></th>
+					<th><a href="#">Thao tác</a></th>
+					<th class="last"><a href="#">Mã</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>#</td>
+					<td><input type="checkbox" id="view-checkall" /></td>
+					<td class="left"><a href="#">Máy bay A320 rơi: Không thi thể nào còn nguyên vẹn</a></td>
+					<td>28/03/2015 19:00 PM</td>
+					<td>28/03/2015 19:00 PM</td>
+					<td><a href="#">Admin</a></td>
+					<td>-</td>
+					<td>12</td>
+					<td><a href="#"><input type="input" name="" value="0" class="order" /></a></td>
+					<td><a href="#"><img src="images/check.png" /></a></td>
+					<td><a href="#"><img src="images/edit.png" /><img src="images/delete.png" /></a></td>
+					<td class="last"><a href="#">1</a></td>
+				</tr>
+				<tr>
+					<td>#</td>
+					<td><input type="checkbox" id="view-checkall" /></td>
+					<td class="left"><a href="#">Máy bay A320 rơi: Không thi thể nào còn nguyên vẹn</a></td>
+					<td>28/03/2015 19:00 PM</td>
+					<td>28/03/2015 19:00 PM</td>
+					<td><a href="#">Admin</a></td>
+					<td>-</td>
+					<td>12</td>
+					<td><a href="#"><input type="input" name="" value="0" class="order" /></a></td>
+					<td><a href="#"><img src="images/check.png" /></a></td>
+					<td><a href="#"><img src="images/edit.png" /><img src="images/delete.png" /></a></td>
+					<td class="last"><a href="#">1</a></td>
+				</tr>
+				<tr>
+					<td>#</td>
+					<td><input type="checkbox" id="view-checkall" /></td>
+					<td class="left"><a href="#">Máy bay A320 rơi: Không thi thể nào còn nguyên vẹn</a></td>
+					<td>28/03/2015 19:00 PM</td>
+					<td>28/03/2015 19:00 PM</td>
+					<td><a href="#">Admin</a></td>
+					<td>-</td>
+					<td>12</td>
+					<td><a href="#"><input type="input" name="" value="0" class="order" /></a></td>
+					<td><a href="#"><img src="images/check.png" /></a></td>
+					<td><a href="#"><img src="images/edit.png" /><img src="images/delete.png" /></a></td>
+					<td class="last"><a href="#">1</a></td>
+				</tr>
+				<tr>
+					<td>#</td>
+					<td><input type="checkbox" id="view-checkall" /></td>
+					<td class="left"><a href="#">Máy bay A320 rơi: Không thi thể nào còn nguyên vẹn</a></td>
+					<td>28/03/2015 19:00 PM</td>
+					<td>28/03/2015 19:00 PM</td>
+					<td><a href="#">Admin</a></td>
+					<td>-</td>
+					<td>12</td>
+					<td><a href="#"><input type="input" name="" value="0" class="order" /></a></td>
+					<td><a href="#"><img src="images/check.png" /></a></td>
+					<td><a href="#"><img src="images/edit.png" /><img src="images/delete.png" /></a></td>
+					<td class="last"><a href="#">1</a></td>
+				</tr>
+			</tbody>			
+		</table>
+	</section><!-- .table -->
+	<section class="pagination">
+			<ul>
+				<li><a href="#">Trang đầu</a></li>
+				<li><a href="#">Lùi lại</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li class="active"><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#">Tiếp tục</a></li>
+				<li><a href="#">Trang cuối</a></li>
+			</ul>
+		</section><!-- .pagination -->
+</section><!-- .hhv-view -->
+
+<section class="hhv-wrapper">
+</section>
+
+<footer><p>Copyright &copy; <?php echo gmdate('Y', time() + 7*3600); ?> Power by <a href="#">hhv</a></p></footer>
+
+</body>
+</html>

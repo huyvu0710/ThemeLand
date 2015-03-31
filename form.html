@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thêm bài viết</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<header class="hhv-header"><p>Hệ thống quản trị website</p></header>
+
+<nav class="navigation">
+	<ul class="main">
+		<li class="main">
+			<a class="main" href="#">Hệ thống</a>
+			<ul class="item">
+				<li class="item">
+					<a href="#">Cấu hình</a>
+					<ul class="sub">
+						<li class="sub"><a href="#">Trang quản trị</a></li>
+						<li class="sub"><a href="#">Trang chủ</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li class="main">
+			<a class="main" href="#">Module</a>
+			<ul class="item">
+				<li class="item"><a href="#">Quảng cáo</a></li>
+				<li class="item"><a href="#">Hỗ trợ trực tuyến</a></li>
+				<li class="item"><a href="#">Từ khóa</a></li>
+				<li class="item"><a href="#">Phản hồi</a></li>
+			</ul>
+		</li>
+		<li class="main">
+			<a class="main" href="#">Bài viết</a>
+			<ul class="item">
+				<li class="item"><a href="#">Danh mục</a></li>
+				<li class="item"><a href="#">Bài viết</a></li>
+			</ul>
+		</li>
+	</ul>
+	<ul class="user-account">
+		<li>Chào <strong>Admin</strong></li>
+		<li><a href="#">Thông tin</a></li>
+		<li><a href="#">Đăng xuất</a></li>
+	</ul>
+</nav>
+
+<section class="hhv-tabs">
+	<h1>Thêm bài viết</h1>
+	<ul>
+		<li class="active"><a href="#">Danh mục bài viết</a></li>
+		<li><a href="#">Danh sách bài viết</a></li>
+	</ul>
+
+</section>
+
+<section class="hhv-form">
+	<form method="post" action="">
+	<section class="main-panel">
+		<header>Thông tin chung</header>
+		<ul class="error">
+			<li>Tiêu đề không được để trống</li>
+		</ul>
+		<section class="block">
+			<label class="item">
+				<p class="label">Tiêu đề:</p>
+				<input type="text" value="" class="txtText" />
+			</label>
+			<label class="item">
+				<p class="label">Danh mục:</p>
+				<select class="cbSelect">
+					<option value="">- Chọn danh mục -</option>
+				</select>
+			</label>
+			<label class="item">
+				<p class="label">Nội dung:</p>
+				<textarea class="txtTextarea"></textarea>
+			</label>
+
+
+			<section class="checkbox-radio">
+				<p class="label">Lựa chọn:</p>
+				<section class="group">
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 1</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 2</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 3</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 4</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 1</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 2</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 3</span></label>
+					<label><input type="checkbox" value="" class="" /><span>Lựa chọn 4</span></label>
+				</section>
+			</section>
+
+			<section class="checkbox-radio">
+				<p class="label">Lựa chọn:</p>
+				<section class="group">
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 1</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 2</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 3</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 4</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 1</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 2</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 3</span></label>
+					<label><input type="radio" name="radio" value="" class="" /><span>Lựa chọn 4</span></label>
+				</section>
+			</section>
+
+			<section class="action">
+				<p class="label">Thao tác:</p>
+				<section class="group">
+					<input type="submit" name="add" value="Thêm mới" />
+					<input type="reset" name="add" value="Làm lại" />
+					
+				</section>
+			</section>
+		</section><!-- .block -->
+	</section><!-- .main-panel -->
+	<aside class="side-panel">
+		<section class="block">
+			<header>Nâng cao</header>
+			<section class="container">
+				<section class="checkbox-radio">
+					<p class="label">Lựa chọn:</p>
+					<section class="group">
+						<label><input type="radio" name="radio" value="" class="" /><span>Không</span></label>
+						<label><input type="radio" name="radio" value="" class="" /><span>Có</span></label>
+					</section>
+				</section>
+			</section><!-- .container -->
+		</section><!-- .block -->
+		<section class="block">
+			<header>Nâng cao</header>
+			<section class="container">
+				<label class="item">
+					<p class="label">Tiêu đề:</p>
+					<input type="text" value="" class="txtText" />
+				</label>
+				<label class="item">
+					<p class="label">Danh mục:</p>
+					<select class="cbSelect">
+						<option value="">- Chọn danh mục -</option>
+					</select>
+				</label>
+				<label class="item">
+					<p class="label">Nội dung:</p>
+					<textarea class="txtTextarea"></textarea>
+				</label>
+			</section><!-- .container -->
+		</section><!-- .block -->
+	</aside><!-- .side-panel -->
+	</form>
+</section><!-- .hhv-form -->
+
+<footer><p>Copyright &copy; <?php echo gmdate('Y', time() + 7*3600); ?> Power by <a href="#">hhv</a></p></footer>
+
+<script src="js/function.js"></script>
+</body>
+</html>
